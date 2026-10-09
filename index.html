@@ -827,7 +827,373 @@
     /* =====================================
        RESPONSIVE
     ===================================== */
+/* =====================================
+   ORYXIS VISUAL CASE STUDY
+===================================== */
 
+.oryxis-showcase {
+    background: #080808;
+    color: #fff9e8;
+}
+
+.oryxis-block {
+    padding: 110px 5vw;
+    border-top: 1px solid rgba(201,164,92,0.25);
+}
+
+.oryxis-topline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #c9a45c;
+    margin-bottom: 90px;
+}
+
+.oryxis-small-label {
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #c9a45c;
+}
+
+.oryxis-brand-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 70px;
+    align-items: end;
+}
+
+.oryxis-brand-grid h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(100px, 17vw, 240px);
+    line-height: 0.75;
+    letter-spacing: -0.03em;
+    margin-top: 25px;
+}
+
+.oryxis-script {
+    font-family: "Caveat", cursive;
+    color: #c9a45c;
+    font-size: clamp(45px, 6vw, 80px);
+    transform: rotate(-4deg);
+    margin-left: 9vw;
+    margin-top: 25px;
+}
+
+.oryxis-brand-copy p {
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #aaa59b;
+}
+
+.oryxis-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.oryxis-tags span {
+    border: 1px solid rgba(201,164,92,0.5);
+    padding: 8px 11px;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    color: #c9a45c;
+}
+
+.oryxis-logo-wrap {
+    margin-top: 100px;
+    min-height: 450px;
+    background: #020202;
+    border: 1px solid rgba(201,164,92,0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.oryxis-logo-wrap img {
+    width: min(520px, 65%);
+    display: block;
+    transition: transform 0.8s ease;
+}
+
+.oryxis-logo-wrap:hover img {
+    transform: scale(1.04);
+}
+
+
+/* PRODUCT */
+
+.oryxis-section-heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(75px, 12vw, 170px);
+    line-height: 0.8;
+    letter-spacing: -0.025em;
+    margin: 25px 0 70px;
+}
+
+.oryxis-section-heading span {
+    color: #c9a45c;
+}
+
+.oryxis-hero-image {
+    position: relative;
+    overflow: hidden;
+    background: #111;
+}
+
+.oryxis-hero-image img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    display: block;
+    transition: transform 1.2s ease;
+}
+
+.oryxis-hero-image:hover img {
+    transform: scale(1.035);
+}
+
+.oryxis-image-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: #fff9e8;
+}
+
+.watch-grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 20px;
+}
+
+.watch-card-large {
+    grid-row: span 2;
+}
+
+.watch-card,
+.watch-card-large,
+.watch-card-wide {
+    position: relative;
+    overflow: hidden;
+    background: #111;
+}
+
+.watch-card img,
+.watch-card-large img,
+.watch-card-wide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.7s ease;
+}
+
+.watch-card-large {
+    min-height: 650px;
+}
+
+.watch-card {
+    min-height: 315px;
+}
+
+.watch-card-wide {
+    grid-column: 1 / -1;
+    min-height: 550px;
+}
+
+.watch-card:hover img,
+.watch-card-large:hover img,
+.watch-card-wide:hover img {
+    transform: scale(1.04);
+}
+
+.watch-grid span {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    color: #fff9e8;
+    background: rgba(8,8,8,0.65);
+    padding: 7px 9px;
+}
+
+
+/* WEBSITE */
+
+.website-main {
+    background: #f4f0e5;
+    padding: 35px;
+    overflow: hidden;
+}
+
+.website-main img {
+    width: 100%;
+    display: block;
+    transition: transform 0.8s ease;
+}
+
+.website-main:hover img {
+    transform: scale(1.015);
+}
+
+.website-grid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.website-grid > div {
+    overflow: hidden;
+}
+
+.website-grid img {
+    width: 100%;
+    display: block;
+    transition: transform 0.7s ease;
+}
+
+.website-grid > div:hover img {
+    transform: scale(1.025);
+}
+
+.website-grid span {
+    display: block;
+    margin-top: 10px;
+    color: #c9a45c;
+    font-size: 9px;
+    letter-spacing: 0.13em;
+}
+
+
+/* EMAIL */
+
+.email-layout {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.email-image {
+    background: #f4f0e5;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.email-image img {
+    width: 100%;
+    display: block;
+    transition: transform 0.8s ease;
+}
+
+.email-image:hover img {
+    transform: scale(1.02);
+}
+
+.email-copy h3 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(35px, 4vw, 60px);
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.email-copy p {
+    max-width: 400px;
+    color: #aaa59b;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.email-secondary {
+    margin-top: 30px;
+    width: 55%;
+    margin-left: auto;
+    background: #f4f0e5;
+    padding: 20px;
+}
+
+.email-secondary img {
+    width: 100%;
+    display: block;
+}
+
+
+/* SOCIAL */
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.social-grid > div {
+    position: relative;
+    overflow: hidden;
+    background: #111;
+}
+
+.social-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.social-grid > div:hover img {
+    transform: scale(1.05);
+}
+
+.social-grid span {
+    display: block;
+    padding-top: 10px;
+    color: #c9a45c;
+    font-size: 9px;
+    letter-spacing: 0.13em;
+}
+
+
+/* FINAL */
+
+.oryxis-final {
+    padding: 140px 5vw;
+    border-top: 1px solid rgba(201,164,92,0.25);
+    text-align: center;
+}
+
+.oryxis-final-label {
+    color: #c9a45c;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    margin-bottom: 35px;
+}
+
+.oryxis-final-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(80px, 14vw, 190px);
+    line-height: 0.8;
+}
+
+.oryxis-final-title span {
+    color: #c9a45c;
+}
+
+.oryxis-final-tags {
+    margin-top: 45px;
+    color: #aaa59b;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+}
     @media (max-width: 800px) {
 
       .hero {
@@ -1036,7 +1402,105 @@
         flex-direction: column;
 
         line-height: 1.5;
-      } }
+      } 
+      /* ORYXIS MOBILE */
+
+.oryxis-block {
+    padding: 75px 20px;
+}
+
+.oryxis-topline {
+    display: block;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+.oryxis-topline span {
+    display: block;
+}
+
+.oryxis-brand-grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+}
+
+.oryxis-brand-grid h2 {
+    font-size: 27vw;
+}
+
+.oryxis-script {
+    font-size: 17vw;
+    margin-left: 5vw;
+}
+
+.oryxis-logo-wrap {
+    min-height: 320px;
+    margin-top: 60px;
+}
+
+.oryxis-logo-wrap img {
+    width: 75%;
+}
+
+.oryxis-section-heading {
+    font-size: 23vw;
+    margin-bottom: 45px;
+}
+
+.oryxis-hero-image img {
+    height: 55vh;
+}
+
+.watch-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.watch-card-large {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    min-height: 500px;
+}
+
+.watch-card {
+    min-height: 260px;
+}
+
+.watch-card-wide {
+    min-height: 400px;
+}
+
+.website-main {
+    padding: 12px;
+}
+
+.website-grid {
+    grid-template-columns: 1fr;
+}
+
+.email-layout {
+    grid-template-columns: 1fr;
+    gap: 45px;
+}
+
+.email-secondary {
+    width: 80%;
+}
+
+.social-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.oryxis-final {
+    padding: 100px 20px;
+}
+
+.oryxis-final-title {
+    font-size: 25vw;
+}
+
+.oryxis-final-tags {
+    line-height: 2;
+}}
 
 
       /* SERVICES */
@@ -1579,6 +2043,282 @@
 
 
   </section>
+  <!-- =====================================
+     ORYXIS — VISUAL CASE STUDY
+===================================== -->
+
+<section class="oryxis-showcase" id="oryxis-case">
+
+    <!-- BRAND -->
+    <div class="oryxis-block oryxis-brand">
+
+        <div class="oryxis-topline">
+            <span>05 — ORYXIS / CASE STUDY</span>
+            <span>BRAND / DIGITAL / MARKETING</span>
+        </div>
+
+        <div class="oryxis-brand-grid">
+
+            <div>
+                <div class="oryxis-small-label">01 — THE BRAND</div>
+
+                <h2>
+                    ORYXIS
+                </h2>
+
+                <div class="oryxis-script">
+                    Time. Perfected.
+                </div>
+            </div>
+
+            <div class="oryxis-brand-copy">
+
+                <p>
+                    A modern luxury watch concept built around
+                    precision, craftsmanship and understated elegance.
+                </p>
+
+                <div class="oryxis-tags">
+                    <span>BRAND IDENTITY</span>
+                    <span>POSITIONING</span>
+                    <span>DIGITAL EXPERIENCE</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="oryxis-logo-wrap">
+            <img
+                src="assets/oryxis/logo.png"
+                alt="Oryxis logo"
+            >
+        </div>
+
+    </div>
+
+
+    <!-- PRODUCT -->
+    <div class="oryxis-block">
+
+        <div class="oryxis-small-label">
+            02 — THE PRODUCT
+        </div>
+
+        <div class="oryxis-section-heading">
+            TIME,<br>
+            <span>DESIGNED.</span>
+        </div>
+
+        <div class="oryxis-hero-image">
+            <img
+                src="assets/oryxis/movement.jpg"
+                alt="Oryxis watch movement"
+            >
+            <div class="oryxis-image-caption">
+                CRAFTED WITH PRECISION / 01
+            </div>
+        </div>
+
+        <div class="watch-grid">
+
+            <div class="watch-card-large">
+                <img
+                    src="assets/oryxis/watch-black.jpg"
+                    alt="Oryxis black chronograph"
+                >
+                <span>01 / CHRONOGRAPH</span>
+            </div>
+
+            <div class="watch-card">
+                <img
+                    src="assets/oryxis/watch-gold.jpg"
+                    alt="Oryxis gold watch"
+                >
+                <span>02 / CLASSIC</span>
+            </div>
+
+            <div class="watch-card">
+                <img
+                    src="assets/oryxis/watch-steel.jpg"
+                    alt="Oryxis steel chronograph"
+                >
+                <span>03 / STEEL</span>
+            </div>
+
+            <div class="watch-card-wide">
+                <img
+                    src="assets/oryxis/watch-moonphase.jpg"
+                    alt="Oryxis moonphase watch"
+                >
+                <span>04 / MOONPHASE</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- WEBSITE -->
+    <div class="oryxis-block">
+
+        <div class="oryxis-small-label">
+            03 — THE DIGITAL EXPERIENCE
+        </div>
+
+        <div class="oryxis-section-heading">
+            FROM BRAND<br>
+            <span>TO SCREEN.</span>
+        </div>
+
+        <div class="website-main">
+            <img
+                src="assets/oryxis/website-01.png"
+                alt="Oryxis website"
+            >
+        </div>
+
+        <div class="website-grid">
+
+            <div>
+                <img
+                    src="assets/oryxis/website-02.png"
+                    alt="Oryxis website screen"
+                >
+                <span>HOMEPAGE / 02</span>
+            </div>
+
+            <div>
+                <img
+                    src="assets/oryxis/website-03.png"
+                    alt="Oryxis website screen"
+                >
+                <span>PRODUCT EXPERIENCE / 03</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- EMAIL -->
+    <div class="oryxis-block">
+
+        <div class="oryxis-small-label">
+            04 — EMAIL MARKETING
+        </div>
+
+        <div class="oryxis-section-heading">
+            THE BRAND<br>
+            <span>IN THE INBOX.</span>
+        </div>
+
+        <div class="email-layout">
+
+            <div class="email-image">
+                <img
+                    src="assets/oryxis/email-01.png"
+                    alt="Oryxis promotional email"
+                >
+            </div>
+
+            <div class="email-copy">
+
+                <div class="oryxis-small-label">
+                    CAMPAIGN / 01
+                </div>
+
+                <h3>
+                    Welcome to Oryxis.
+                </h3>
+
+                <p>
+                    Promotional email creative designed to carry
+                    the same luxury visual language into the inbox.
+                </p>
+
+                <div class="oryxis-tags">
+                    <span>EMAIL DESIGN</span>
+                    <span>CAMPAIGN CREATIVE</span>
+                    <span>BRAND STORY</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="email-secondary">
+            <img
+                src="assets/oryxis/email-02.png"
+                alt="Oryxis email campaign"
+            >
+        </div>
+
+    </div>
+
+
+    <!-- SOCIAL -->
+    <div class="oryxis-block">
+
+        <div class="oryxis-small-label">
+            05 — SOCIAL / CONTENT
+        </div>
+
+        <div class="oryxis-section-heading">
+            BUILT FOR<br>
+            <span>THE SCROLL.</span>
+        </div>
+
+        <div class="social-grid">
+
+            <div>
+                <img
+                    src="assets/oryxis/social-01.png"
+                    alt="Oryxis social media post"
+                >
+                <span>01 / SOCIAL</span>
+            </div>
+
+            <div>
+                <img
+                    src="assets/oryxis/social-02.png"
+                    alt="Oryxis social media post"
+                >
+                <span>02 / SOCIAL</span>
+            </div>
+
+            <div>
+                <img
+                    src="assets/oryxis/social-03.png"
+                    alt="Oryxis social media post"
+                >
+                <span>03 / SOCIAL</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FINAL -->
+    <div class="oryxis-final">
+
+        <div class="oryxis-final-label">
+            PROJECT 01 / 2026
+        </div>
+
+        <div class="oryxis-final-title">
+            FROM IDEA<br>
+            <span>TO EXPERIENCE.</span>
+        </div>
+
+        <div class="oryxis-final-tags">
+            BRAND / WEBSITE / EMAIL / SOCIAL / DIGITAL
+        </div>
+
+    </div>
+
+</section>
 
 
 </body>
