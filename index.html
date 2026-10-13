@@ -1516,14 +1516,16 @@
 
 
 .social-grid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 12px;
+    align-items: start;
 }
 
 .social-grid > div:first-child {
-    grid-row: auto;
     grid-column: 1 / -1;
+    grid-row: auto;
 }
 
 
