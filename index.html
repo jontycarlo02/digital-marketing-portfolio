@@ -1515,15 +1515,12 @@
 .social-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 14px;
+    gap: 12px;
 }
 
-.social-grid > div:first-child,
-.social-grid > div:nth-child(2),
-.social-grid > div:nth-child(3) {
-    grid-column: auto;
+.social-grid > div:first-child {
     grid-row: auto;
-    margin-top: 0;
+    grid-column: 1 / -1;
 }
 
 
