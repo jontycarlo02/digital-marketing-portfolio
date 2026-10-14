@@ -131,7 +131,33 @@
     }
 
 
-   .photo-placeholder {
+.photo-placeholder {
+    position: absolute;
+
+    z-index: 3;
+
+    width: min(470px, 32vw);
+    height: min(650px, 65vh);
+
+    left: 50%;
+    top: 52%;
+
+    transform: translate(-50%, -50%);
+
+    background: #080808;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--cream);
+
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+  .photo-placeholder {
     overflow: hidden;
     background: #f63a05;
 }
