@@ -1228,7 +1228,17 @@ transform: translate(-50%, -50%);
     margin-bottom: 45px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.55);
 }
+.about-photo {
+    width: min(420px, 90%);
+    margin: 35px 0 50px;
+    overflow: hidden;
+}
 
+.about-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 /* RESPONSIVE LAYOUT — TABLET AND MOBILE
    Keep this as one clean media query (no nested @media blocks).
@@ -1618,6 +1628,9 @@ transform: translate(-50%, -50%);
         WHO<br>
         AM I?
       </h2>
+      <div class="about-photo">
+    <img src="assets/japneet-about.png" alt="Japneet Singh">
+</div>
 
 
       <div class="about-script">
